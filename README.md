@@ -1,10 +1,8 @@
-# **Guía Definitiva para Instalar Laravel 11 en Ubuntu con XAMPP y MySQL/MariaDB (Incluyendo Breeze y Blade)**
+# **Guía para Instalar Laravel 11/12 en Ubuntu con XAMPP y MySQL/MariaDB (Sin Docker) (Incluyendo Breeze y Blade)**
 
 ## **Introducción**
 
 Esta guía proporciona un proceso paso a paso, ultra preciso y totalmente funcional para instalar el framework PHP Laravel, específicamente la versión 11 (la última versión estable al momento de escribir este documento), en un sistema Ubuntu Linux utilizando XAMPP como entorno de servidor local. A diferencia de otras guías, este enfoque evita explícitamente el uso de Docker y Laravel Sail, optando por una configuración manual tradicional con Apache, MySQL/MariaDB (incluido en XAMPP) y PHP. Además, se detalla la configuración del paquete de autenticación Laravel Breeze con plantillas Blade y la configuración de un Virtual Host de Apache para un acceso limpio al proyecto.
-
-**Nota Importante sobre la Versión:** La consulta original solicitaba Laravel 12\. Sin embargo, al momento de esta redacción, Laravel 11 es la última versión estable lanzada (Marzo 2024).1 Se espera que Laravel 12 sea lanzado en el primer trimestre de 2025\.2 Esta guía se centrará en Laravel 11, pero el proceso de instalación para Laravel 12 probablemente será muy similar, con posibles ajustes menores en los requisitos de versión de PHP u otras dependencias.3
 
 ## **1\. Prerrequisitos del Sistema**
 
